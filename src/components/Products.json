@@ -20,16 +20,6 @@
         "product_id": 2
     },
     {
-        "product_name": "Teriyaki Sauce",
-        "price": 46.95,
-        "quantity": 58,
-        "brand": "http://dummyimage.com/129x100.png/dddddd/000000",
-        "category": "Beauty",
-        "description": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
-        "rating": 1.7,
-        "product_id": 3
-    },
-    {
         "product_name": "V8 Pet",
         "price": 38.05,
         "quantity": 13,
@@ -138,16 +128,6 @@
         "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
         "rating": 3.2,
         "product_id": 14
-    },
-    {
-        "product_name": "Irish Cream - Butterscotch",
-        "price": 38.74,
-        "quantity": 79,
-        "brand": "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
-        "category": "Sports",
-        "description": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
-        "rating": 1.8,
-        "product_id": 15
     },
     {
         "product_name": "Cookie Dough - Chunky",

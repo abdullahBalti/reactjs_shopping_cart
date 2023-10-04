@@ -1,25 +1,18 @@
-import { faker } from '@faker-js/faker';
-import {  useState } from 'react';
+import {  useContext, useState } from 'react';
 import SingleProduct from './singleProduct';
-import Products_data from './Products.json'
-
-faker.seed(6);
-
+import {Cart } from '../context/Context'
 
 export default function Home() {
 
+  const {fetchdata, setFetchdata} = useContext(Cart)
 
-  // const [cart, setCart] = useState([]);
-  // console.log(cart);
-  const [products] = useState(Products_data)
-
-  
+    // const ct_filter = products.filter((pro)=>{})
   // console.log(products);
 
   return (
     <div className='d-flex flex-wrap'>
-      {products.map((prod)=>(        
-        <SingleProduct prod={prod} key={products.id} />        
+      {fetchdata.map((prod)=>(        
+        <SingleProduct prod={prod} key={fetchdata.id} />        
       ))}
     </div>
   )

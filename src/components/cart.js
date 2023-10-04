@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { Cart } from "../Context";
+import { Cart } from "../context/Context";
 import ProList from './proList';
 
 export default function CartPage() {
