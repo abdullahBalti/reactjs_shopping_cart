@@ -5,6 +5,7 @@ import CartPage from './components/cart';
 import Header from './components/header';
 import Products from './components/Products.json';
 import ProductDetail from './components/ProductDetail';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
           <Route path='/product/:id' element={<ProductDetail />}></Route>
         </Routes>
       </div>
+      <Footer/>
     </>
   );
 }
